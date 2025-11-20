@@ -15,19 +15,14 @@ The UI is designed with a **glassmorphism + gradient theme** to make it attracti
 - CSS (Glassmorphism, Gradient, Shadows)  
 - JavaScript (DOM & Eval Logic)
 
-## 📂 Folder Structure
-/calculator
-├── index.html
-├── style.css
-└── script.js
+
 
 ## 🔧 How to Run
 1. Download the project or clone the repository  
 2. Open **index.html** in any browser  
 3. Start using the calculator  
 
-## 📸 Screenshot (Optional)
-You can add your own calculator screenshot here.
+
 
 ---
 
