@@ -1,1 +1,36 @@
-# modern-calculator-app
+# Modern Calculator Web App
+
+A clean and modern-looking calculator built using **HTML, CSS, and JavaScript**.  
+The UI is designed with a **glassmorphism + gradient theme** to make it attractive and professional.
+
+## 🚀 Features
+- Glassmorphism UI with gradient background  
+- Smooth button hover effects  
+- Basic calculator functions ( + , − , × , ÷ )  
+- Responsive and modern layout  
+- Beginner-friendly JavaScript logic  
+
+## 🛠 Technologies Used
+- HTML  
+- CSS (Glassmorphism, Gradient, Shadows)  
+- JavaScript (DOM & Eval Logic)
+
+## 📂 Folder Structure
+/calculator
+├── index.html
+├── style.css
+└── script.js
+
+## 🔧 How to Run
+1. Download the project or clone the repository  
+2. Open **index.html** in any browser  
+3. Start using the calculator  
+
+## 📸 Screenshot (Optional)
+You can add your own calculator screenshot here.
+
+---
+
+## 📌 Author
+Created by Asif as a frontend mini-project.
+
