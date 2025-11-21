@@ -2,97 +2,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 body {
+    width: 100%;
     height: 100vh;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-}
-
-.container {
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.2);
 }
 
 .calculator {
-    width: 300px;
+    padding: 20px;
+    border: 1px solid #717377;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
 }
 
-#display {
-    width: 100%;
-    height: 70px;
-    background: rgba(255, 255, 255, 0.2);
+input {
+    width: 320px;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
     border: none;
-    color: white;
-    font-size: 2rem;
-    padding: 15px;
-    border-radius: 15px;
-    margin-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
     text-align: right;
-    outline: none;
-}
-
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
 }
 
 button {
-    padding: 20px;
-    font-size: 1.2rem;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
     border: none;
-    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    backdrop-filter: blur(10px);
-    transition: 0.2s;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
 }
 
-button:hover {
-    background: rgba(255, 255, 255, 0.4);
+.operator {
+    color: #6dee0a;
 }
 
-.op {
-    background: rgba(255, 180, 68, 0.8);
+.equalBtn {
+    background: #fb7c14;
 }
 
-.op:hover {
-    background: rgba(255, 180, 68, 1);
+.error {
+    height: 20px;
+    color: #ff5656;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
 }
 
-.eq {
-    background: rgba(72, 201, 176, 0.9);
-}
-
-.eq:hover {
-    background: rgba(72, 201, 176, 1);
-}
-
-.zero {
-    grid-column: span 2;
-}
-
-.clear {
-    margin-top: 15px;
-    width: 100%;
-    padding: 18px;
-    background: rgba(255, 77, 77, 0.9);
-    color: white;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.clear:hover {
-    background: rgba(255, 77, 77, 1);
-}
