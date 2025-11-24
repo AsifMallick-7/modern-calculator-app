@@ -20,7 +20,8 @@ The UI is designed with a **glassmorphism + gradient theme** to make it attracti
 ## 🔧 How to Run
 1. Download the project or clone the repository  
 2. Open **index.html** in any browser  
-3. Start using the calculator  
+3. Start using the calculator<br>
+   Or live demo -  https://calculator-by-asif.netlify.app/ 
 
 
 
